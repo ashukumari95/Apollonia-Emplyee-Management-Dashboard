@@ -47,28 +47,29 @@ package.json       # Dependencies & scripts
    npm start
    ```
 
-4. Open in browser → [http://localhost:5000](http://localhost:5000)  
+4. Open in browser → [http://localhost:3000](http://localhost:3000)  
 
 ---
 
 ## 🌍 Deployment  
 The app can be deployed on platforms like:  
 - [Render](https://render.com)  
-- [Railway](https://railway.app)  
-- [Heroku](https://heroku.com)  
 
 Make sure your `server.js` has:  
 ```js
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 ```
 
 ---
 
 ## 📸 Screenshots  
-_Add screenshots of your dashboard UI here._  
+<img width="1907" height="987" alt="image" src="https://github.com/user-attachments/assets/4bd95531-2a3d-44b9-9073-5cbc301ceb94" />
+<img width="1915" height="990" alt="image" src="https://github.com/user-attachments/assets/4e002034-08ec-408a-b00e-3d93468292a8" />
+
+
 
 ---
 
 ## 👩‍💻 Author  
-- Developed by **[Your Name]**  
+- Developed by **[Ashu Kumari]**  
